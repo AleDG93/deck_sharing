@@ -1,0 +1,18 @@
+<h3>Hello <%= playerName %></h3>
+
+
+
+<% if (gameType == 'pictionary')  { %>
+
+<form action="pictionary/drawCard" type="GET">
+
+    <input value="<%= playerName %>" name="playerName">
+    <input value="<%= gameType %>" name="gameType">
+    <input value="<%= gameName %>" name="gameName">
+
+    <button type="submit" class="btn-info btn">Pesca una carta</button>
+
+</form>
+
+
+<% } %>

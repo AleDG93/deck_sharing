@@ -1,0 +1,20 @@
+{ 
+    "cards": [
+        {"1" : {
+            "word": "Gatto",
+            "category": "Animali"
+        }},
+        {"2" : {
+            "word": "Cane",
+            "category": "Animali"
+        }},
+        {"3" : {
+            "word": "Pappagallo",
+            "category": "Animali"
+        }},
+        {"4" : {
+            "word": "Giraffa",
+            "category": "Animali"
+        }}
+    ]
+}
