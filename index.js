@@ -12,7 +12,6 @@ app.use(express.static(path.posix.join(__dirname, 'static')))
 //import controllers
 var gameController = require('./controllers/gameController');
 var pictionaryController = require('./controllers/pictionaryController')
-var playerController = require('./controllers/playerController')
 
 // index page 
 app.get('/', function(req, res) {

@@ -12,7 +12,8 @@ class TabooCard {
 
 class PictionaryCard{
 
-    constructor(word, category){
+    constructor(id, word, category){
+        this.id = id;
         this.word = word;
         this.category = category;
     }

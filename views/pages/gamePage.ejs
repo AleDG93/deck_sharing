@@ -1,18 +1,89 @@
-<h3>Hello <%= playerName %></h3>
+<head>
+
+    <%- include('../partials/head') %>
+</head>
+
+<body>
+
+<div class="container-fluid">
+
+    <h3>Hello <%= playerName %></h3>
+
+    <% if (gameType == 'pictionary')  { %>
+
+    <hr>
+    <h4>Le tue carte</h4>
 
 
+    <form action="/pictionary/drawCard" type="GET">
 
-<% if (gameType == 'pictionary')  { %>
+        <input value="<%= playerName %>" name="playerName" >
+        <input value="<%= gameType %>" name="gameType">
+        <input value="<%= gameName %>" name="gameName">
 
-<form action="pictionary/drawCard" type="GET">
+        <button type="submit" class="btn btn-primary">Pesca una carta</button>
 
-    <input value="<%= playerName %>" name="playerName">
-    <input value="<%= gameType %>" name="gameType">
-    <input value="<%= gameName %>" name="gameName">
+    </form>
+    
 
-    <button type="submit" class="btn-info btn">Pesca una carta</button>
+    <% if(typeof player == 'object' && player) { %>
+        <h1>ciao</h1>
 
-</form>
+        <div class="card-deck">        
+    <% for(var i = 0; i < player.cards.length; i++){ %>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title"><%= player.cards[i].category %></h5>
+                <p class="card-text"><%= player.cards[i].word %></p>
+                </div>
+            </div> 
+        <% } %>
+
+        </div>
+    <% } %>
 
 
-<% } %>
+    <hr>
+    <h4>Carte condivise</h4>
+
+    
+
+    <% if(typeof shared_cards == 'object' && shared_cards) { %>
+
+        <div class="card-deck">
+
+        
+    <% for(var i = 0; i < shared_cards.length; i++){ %>
+            
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title"><%= shared_cards[i].category %></h5>
+                <p class="card-text"><%= shared_cards[i].word %></p>
+                </div>
+            </div> 
+        <% 
+        }
+        %>
+
+        </div>
+    <% } %>
+
+
+    <form action="/pictionary/passTurn" type="GET">
+
+        <input value="<%= playerName %>" name="playerName">
+        <input value="<%= gameType %>" name="gameType">
+        <input value="<%= gameName %>" name="gameName">
+
+        <button type="submit" class="btn-info btn">Finisci il turno</button>
+
+
+    </form>
+
+    <% } %>
+
+</div>
+</body>

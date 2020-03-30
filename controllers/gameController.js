@@ -63,12 +63,6 @@ function instantiateGame(gameType, playerName, gameName, dir){
 
 function createPictionaryDeck(dir){
 
-/*    picCards = pictionaryCards.cards;
-    cardsObjs = []
-    picCards.forEach(element => {
-        cardsObjs.push(new PictionaryCard(element.name, element.category))
-    });
-*/
     fs.copyFile('controllers/cards/pictionary_cards.json', dir + "/deck.json", (err) => {
         if (err) throw err;
         console.log('source.txt was copied to destination.txt');
