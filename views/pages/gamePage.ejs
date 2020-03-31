@@ -1,22 +1,104 @@
 <head>
-
     <%- include('../partials/head') %>
 </head>
 
 <body>
 
-<div class="container-fluid">
+<div class="container-fluid m-3">
 
-    <h3>Hello <%= playerName %></h3>
+    <h3>Hello <%= player.playerName %>  -  <%= gameName %></h3>
+    <hr>
+    <div class="row">
+        <div class="col-3">
 
+    <% if( player.team == 'teamOrange') { %>
+                <h4>Team Orange!</h4>
+        </div>
+    <% } else if( player.team == 'teamBlue') { %>
+                <h4>Team Blue!</h4>
+    <% } %>
     <% if (gameType == 'pictionary')  { %>
+        <div class="col-9">            
+            <div class="row">
+                <div class="col-6">
+                    Team Orange
+                </div>
+                <div class="col-6">
+                    Team Blue
+                </div>
+            </div>
+                <% if(teams.team[0]  == 'teamOrange'){ %>
+                    <div class="row">
+                        <div class="col-6">
+                            <%= teams.team[0].points %>
+                        </div>
+                        <div class="col-6">
+                            <%= teams.team[1].points %>
+                        </div>
+                    </div>
+                <% } else { %>
+                    <div class="row">
+                        <div class="col-6">
+                            <%= teams.team[1].points %>
+                        </div>
+                        <div class="col-6">
+                            <%= teams.team[0].points %>
+                        </div>
+                    </div>
 
+                <% } %>
+            </div>
+    </div>
     <hr>
     <div class="row">
         <div class="col-12">
             <h4>Le tue carte</h4>
         </div>
     </div>
+    <div class="row">
+        <div class="col-6">
+        
+                
+            <form action="/pictionary/pass" type="GET">
+
+                <input value="<%= player.playerName %>" name="playerName" hidden>
+                <input value="<%= gameType %>" name="gameType" hidden>
+                <input value="<%= gameName %>" name="gameName" hidden>
+                <label class="form-check-label" for="points">Punti fatti:</label>
+                <input name="points" id="points" required>
+                <button type="submit" class="btn-info btn">Finisci il turno</button>
+
+
+            </form>
+        </div>
+
+        <div class="col-2">
+        
+            <form action="/pictionary/refresh" type="GET">
+                <button type="submit" class="btn btn-primary">Refresh</button>
+            </form>
+        </div>
+
+        <div class="col-2">
+            
+            <form action="/pictionary/drawCard" type="GET">
+
+                <input value="<%= player.playerName %>" name="playerName" hidden>
+                <input value="<%= gameType %>" name="gameType" hidden>
+                <input value="<%= gameName %>" name="gameName" hidden>
+
+                <button type="submit" class="btn btn-success">Pesca una carta</button>
+
+            </form>  
+        </div>
+        
+        <div class="col-2">
+            <div class="float-sm-right"></div>
+                <form action="/pictionary/refresh" type="GET">
+                    <button type="submit" class="btn btn-danger">Logout</button>
+                </form>
+            </div>
+        </div>
 
     <!-- 
         Start card container with player's cards
@@ -46,20 +128,7 @@
         End card container with player's cards
     -->
 
-    <div class="row">
-        <div class="col-12">
-            
-            <form action="/pictionary/drawCard" type="GET">
-
-                <input value="<%= playerName %>" name="playerName" hidden>
-                <input value="<%= gameType %>" name="gameType" hidden>
-                <input value="<%= gameName %>" name="gameName" hidden>
-
-                <button type="submit" class="btn btn-primary">Pesca una carta</button>
-
-            </form>  
-        </div>
-    </div>
+   
 
 
     <hr>
@@ -99,41 +168,9 @@
     <!-- 
         End card container with shared cards
     -->
-    <div class="row">
-        <div class="col-12">
-        
-                
-            <form action="/pictionary/pass" type="GET">
-
-                <input value="<%= playerName %>" name="playerName" hidden>
-                <input value="<%= gameType %>" name="gameType" hidden>
-                <input value="<%= gameName %>" name="gameName" hidden>
-
-                <button type="submit" class="btn-info btn">Finisci il turno</button>
 
 
-            </form>
-        </div>
-    </div>
     <% } %>
 
-    <div class="row">
-        <div class="col-12">
-        
-            <form action="/pictionary/refresh" type="GET">
-                <button type="submit" class="btn btn-primary">Refresh</button>
-            </form>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-12">
-            <div class="float-sm-right">
-                <form action="/game/logout" type="GET">
-                    <button type="submit" class="btn btn-danger">Logout</button>
-                </form>
-            </div>
-        </div>
-    </div>
 </div>
 </body>

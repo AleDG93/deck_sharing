@@ -7,6 +7,7 @@ var cookieParser = require('cookie-parser')
 var pictionaryCards = require('./cards/pictionary_cards.json')
 var {PictionaryCard} = require('../entities/card')
 var playerController = require('../controllers/playerController')
+var teamController = require('../controllers/teamController')
 
 gameController.use(bodyParser.json())
 gameController.use(bodyParser.urlencoded({extended: true}))
@@ -19,16 +20,19 @@ gameController.post('/newGame', function(req, res){
     var playerName = req.body['playerName'];
     var gameType = req.body['gameType'];
     var dir = 'games/' + gameType + "_" + gameName;
-    
+    var playerTeam = req.body['playerTeam'];
+
+    var newPlayer = new Player(playerName, [], playerTeam);
     if(!createGame(dir)){
         res.send("Rifai e scegli un altro nome per il gioco, zio Billy...");
         return;
     } else {
-        instantiateGame(gameType, playerName, gameName, dir)    
+        var [player, teams] = instantiateGame(gameType, newPlayer, gameName, dir, playerTeam);
         res.cookie('gameName', gameName);
         res.cookie('gameType', gameType)
         res.cookie('playerName', playerName);
-        res.render('pages/gamePage', {gameType, playerName, gameName})
+        res.cookie('playerTeam', playerTeam);
+        res.render('pages/gamePage', {gameType, player, gameName, teams})
     }
 })
 
@@ -37,13 +41,18 @@ gameController.post('/joinGame', function(req, res){
     var gameName = req.body['gameName'];
     var playerName = req.body['playerName'];
     var gameType = req.body['joinGameType'];
+    var playerTeam = req.body['playerTeam'];
 
-    playerController.createPlayer(playerName, gameType, gameName);
+    var newPlayer = new Player(playerName, [], playerTeam);
+
+    var player = playerController.createPlayer(playerName, gameType, gameName, playerTeam);
+    var teams = teamController.addPlayer(player, gameType, gameName, playerTeam);
 
     res.cookie('gameName', gameName);
     res.cookie('gameType', gameType)
     res.cookie('playerName', playerName);
-    res.render('pages/gamePage', {gameType, playerName, gameName});
+    res.cookie('playerTeam', playerTeam);
+    res.render('pages/gamePage', {gameType, player, gameName, teams});
 
 })
 
@@ -57,17 +66,20 @@ gameController.get('/logout', function(req, res){
     res.clearCookie('gameName');
     res.clearCookie('gameType')
     res.clearCookie('playerName');
+    res.clearCookie('playerTeam');
     res.render('pages/homepage');
 
 })
 
-function instantiateGame(gameType, playerName, gameName, dir){
+function instantiateGame(gameType, player, gameName, dir, playerTeam){
 
     if(gameType == 'risiko'){
         createRisikoDeck(dir);
     } else if(gameType == 'pictionary'){
         createPictionaryDeck(dir);
-        playerController.createPlayer(playerName, gameType, gameName);
+        var newPlayer = playerController.createPlayer(player.playerName, gameType, gameName, playerTeam);
+        var teams = teamController.createTeams(player, gameType, gameName, playerTeam)
+        return [newPlayer, teams];
     } else if(gameType == 'taboo'){
         createTabooDeck(dir);
     }
@@ -89,29 +101,6 @@ function createGame(dir){
         return true
     } else {
         return false
-    }
-}
-
-function createPlayer(playerName, gameType, gameName){
-
-    var dir = "games/" + gameType + "_" + gameName + "/" + playerName + ".json";
-    var player = new Player(playerName, []);
-    var jsonPlayer = JSON.stringify(player);
-
-    try {
-        if (fs.existsSync(dir)) {
-            return;
-        } else {
-            fs.writeFile(dir, jsonPlayer, 'utf8', function (err) {
-                if (err) {
-                    console.log("An error occured while writing JSON Object to File.");
-                    return console.log(err);
-                }
-            });
-            return;
-        }
-    } catch(err) {
-        console.error(err)
     }
 }
 
