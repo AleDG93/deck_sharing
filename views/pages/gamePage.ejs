@@ -26,13 +26,14 @@
 <% if(typeof player == 'object' && player) { %>
     <div class="row">
         <div class="col-12">
-            <div class="card-deck">        
-        <% for(var i = 0; i < player.cards.length; i++){ %>
-
-                <div class="card border-secondary mb-3" style="width: 18rem;">
-                    <div class="card-body">
-                    <h5 class="card-title"><%= player.cards[i].category %></h5>
-                    <p class="card-text"><%= player.cards[i].word %></p>
+            <div class="row row-cols-1 row-cols-md-4">
+                <% for(var i = 0; i < player.cards.length; i++){ %>
+                <div class="col mb-4">
+                    <div class="card border-secondary mb-3" style="width: 18rem;">
+                        <div class="card-body">
+                        <h5 class="card-title"><%= player.cards[i].category %></h5>
+                        <p class="card-text"><%= player.cards[i].word %></p>
+                        </div>
                     </div>
                 </div> 
             <% } %>
@@ -77,16 +78,17 @@
     <% if(typeof sharedDeck == 'object' && sharedDeck) { %>
         <div class="row">
             <div class="col-12">
-                <div class="card-deck">
+                <div class="row row-cols-1 row-cols-md-4">
                     
                 <% for(var i = 0; i < sharedDeck.cards.length; i++){ %>
-                        
+                    <div class="col mb-4">
                         <div class="card border-secondary mb-3" style="width: 18rem;">
                             <div class="card-body">
                             <h5 class="card-title"><%= sharedDeck.cards[i].category %></h5>
                             <p class="card-text"><%= sharedDeck.cards[i].word %></p>
                             </div>
                         </div> 
+                    </div>
                     <% 
                     }
                     %>
@@ -121,6 +123,16 @@
             <form action="/pictionary/refresh" type="GET">
                 <button type="submit" class="btn btn-primary">Refresh</button>
             </form>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="float-sm-right">
+                <form action="/game/logout" type="GET">
+                    <button type="submit" class="btn btn-danger">Logout</button>
+                </form>
+            </div>
         </div>
     </div>
 </div>

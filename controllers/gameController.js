@@ -48,6 +48,18 @@ gameController.post('/joinGame', function(req, res){
 })
 
 
+gameController.get('/logout', function(req, res){
+    
+    var gameName = req.body['gameName'];
+    var playerName = req.body['playerName'];
+    var gameType = req.body['joinGameType'];
+
+    res.clearCookie('gameName');
+    res.clearCookie('gameType')
+    res.clearCookie('playerName');
+    res.render('pages/homepage');
+
+})
 
 function instantiateGame(gameType, playerName, gameName, dir){
 
