@@ -9,7 +9,7 @@ exports.createPlayer = function createPlayer(playerName, gameType, gameName, pla
 
     try {
         if (fs.existsSync(dir)) {
-            return;
+            return player;
         } else {
             fs.writeFile(dir, jsonPlayer, 'utf8', function (err) {
                 if (err) {

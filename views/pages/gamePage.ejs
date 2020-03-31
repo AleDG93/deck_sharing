@@ -6,34 +6,39 @@
 
 <div class="container-fluid m-3">
 
-    <h3>Hello <%= player.playerName %>  -  <%= gameName %></h3>
+    <h4 style="display: inline;">Hello</h4><h3 style="display: inline;"> <%= player.playerName %> </h> 
+        &emsp; &emsp; <h4 style="display: inline;">Game: </h4> <h3 style="display: inline;"><%= gameName %></h3>
     <hr>
     <div class="row">
         <div class="col-3">
 
     <% if( player.team == 'teamOrange') { %>
-                <h4>Team Orange!</h4>
+            <div class="team-orange">        
+                <h4>You're in team Orange</h4>
+            </div>
         </div>
     <% } else if( player.team == 'teamBlue') { %>
-                <h4>Team Blue!</h4>
+            <div class="team-blue">        
+                <h4>You're in team Blue</h4>
+            </div>
     <% } %>
     <% if (gameType == 'pictionary')  { %>
         <div class="col-9">            
             <div class="row">
                 <div class="col-6">
-                    Team Orange
+                    <h4>Team Orange</h4>
                 </div>
                 <div class="col-6">
-                    Team Blue
+                    <h4>Team Blue</h4>
                 </div>
             </div>
-                <% if(teams.team[0]  == 'teamOrange'){ %>
+                <% if(teams.team[0].name  == 'teamOrange'){ %>
                     <div class="row">
-                        <div class="col-6">
-                            <%= teams.team[0].points %>
+                        <div class="col-6 team-orange">
+                            <h1><%= teams.team[0].points %></h1>
                         </div>
-                        <div class="col-6">
-                            <%= teams.team[1].points %>
+                        <div class="col-6 team-blue">
+                            <h1><%= teams.team[1].points %></h1>
                         </div>
                     </div>
                 <% } else { %>
