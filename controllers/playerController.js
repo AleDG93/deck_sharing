@@ -16,7 +16,6 @@ exports.createPlayer = function createPlayer(playerName, gameType, gameName){
                     console.log("An error occured while writing JSON Object to File.");
                     return console.log(err);
                 }
-                console.log("JSON player created");
             });
             return;
         }
@@ -45,7 +44,6 @@ exports.savePlayer = function savePlayer(playerName, gameType, gameName, player)
                 console.log("An error occured while writing JSON Object to File.");
                 return console.log(err);
             }
-            console.log("JSON player updated");
         });
     } catch(err) {
         console.error(err)
@@ -64,7 +62,6 @@ exports.removePlayerCards = function removePlayerCards(playerName, gameType, gam
                 console.log("An error occured while writing JSON Object to File.");
                 return console.log(err);
             }
-            console.log("JSON player updated");
         });
     } catch(err) {
         console.error(err)

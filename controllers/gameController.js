@@ -34,7 +34,6 @@ gameController.post('/newGame', function(req, res){
 
 gameController.post('/joinGame', function(req, res){
     
-    console.log()
     var gameName = req.body['gameName'];
     var playerName = req.body['playerName'];
     var gameType = req.body['joinGameType'];
@@ -67,7 +66,6 @@ function createPictionaryDeck(dir){
 
     fs.copyFile('controllers/cards/pictionary_cards.json', dir + "/deck.json", (err) => {
         if (err) throw err;
-        console.log('source.txt was copied to destination.txt');
     });
 
 }
@@ -97,7 +95,6 @@ function createPlayer(playerName, gameType, gameName){
                     console.log("An error occured while writing JSON Object to File.");
                     return console.log(err);
                 }
-                console.log("JSON player created");
             });
             return;
         }

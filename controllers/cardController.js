@@ -36,7 +36,6 @@ exports.updateDeck = function updateDeck(gameType, gameName, deck){
                 console.log("An error occured while overwriting deck");
                 return console.log(err);
             }
-            console.log("Deck updated");
         });
     } catch(err) {
         console.error(err)
@@ -74,7 +73,6 @@ exports.updateSharedCards = function updateSharedCards(gameType, gameName, updat
 
 
     var dir = 'games/' + gameType + "_" + gameName + "/shared_cards.json";
-    console.log(updatedCards);
     var deck = new Deck(updatedCards);
     var jsonDeck = JSON.stringify(deck);
 
@@ -84,7 +82,6 @@ exports.updateSharedCards = function updateSharedCards(gameType, gameName, updat
                 console.log("An error occured while overwriting shared cards");
                 return console.log(err);
             }
-            console.log("Shared cards updated");
         });
     } catch(err) {
         console.error(err)

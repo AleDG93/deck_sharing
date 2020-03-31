@@ -28,7 +28,6 @@ pictionaryController.get('/drawCard', (req, res) => {
     // Draw a card from deck0
     randomCard = Math.round(Math.random() * (deck.cards.length - 1))
 
-    console.log("Random card: " + randomCard)
     var card = deck.cards[randomCard]
 
     // Remove the card from the deck
