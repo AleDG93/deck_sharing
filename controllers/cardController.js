@@ -3,25 +3,27 @@ var {Deck} = require('../entities/deck');
 var pictionaryCards = require('./cards/pictionary_cards.json');
 const fs = require('fs');
 
-exports.getDeck = function getDeck(gameName, gameType){
+exports.getDeck = function getDeck(gameType, gameName){
 
-    var dir = '../games/' + gameType + "_" + gameName + "/deck.json";
+    var dir = 'games/' + gameType + "_" + gameName + "/deck.json";
 
-    var picCards = pictionaryCards.cards;
+
+    var rawDeck = fs.readFileSync(dir);
+    var deck = JSON.parse(rawDeck)
+
     var cardsObjs = []
-    picCards.forEach(element => {
-        cardsObjs.push(new PictionaryCard(element.id, element.name, element.category))
+
+    deck.cards.forEach(element => {
+        cardsObjs.push(new PictionaryCard(element.id, element.word, element.category))
     });
     
-    console.log(picCards);
-
-    var deck = new Deck(picCards);
+    var deck = new Deck(cardsObjs);
 
     return deck;
 
 }
 
-exports.updateDeck = function updateDeck(gameName, gameType, deck){
+exports.updateDeck = function updateDeck(gameType, gameName, deck){
 
 
     var dir = "games/" + gameType + "_" + gameName + "/deck.json";
@@ -41,17 +43,50 @@ exports.updateDeck = function updateDeck(gameName, gameType, deck){
     }
 }
 
-exports.getSharedCards = function getSharedCards(gameName, gameType){
+exports.getSharedCards = function getSharedCards(gameType, gameName){
 
-    var dir = '../games/' + gameType + "_" + gameName + "/shared_cards.json";
+    var dir = 'games/' + gameType + "_" + gameName + "/shared_cards.json";
 
-    var picCards = pictionaryCards.cards;
+    var rawSharedCards = null;
+    try {
+        if (fs.existsSync(dir)) {
+            rawSharedCards = fs.readFileSync(dir)
+        } else {
+            return new Deck([])
+        }
+      } catch(err) {
+        console.error(err)
+      }
+    var sharedCards = JSON.parse(rawSharedCards)
+
     var cardsObjs = []
-    picCards.forEach(element => {
-        cardsObjs.push(new PictionaryCard(element.id, element.name, element.category))
+
+    sharedCards.cards.forEach(element => {
+        cardsObjs.push(new PictionaryCard(element.id, element.word, element.category))
     });
     
-    var shared_cards = new Deck(picCards);
+    var sharedDeck = new Deck(cardsObjs);
 
-    return shared_cards;
+    return sharedDeck;
+}
+
+exports.updateSharedCards = function updateSharedCards(gameType, gameName, updatedCards){
+
+
+    var dir = 'games/' + gameType + "_" + gameName + "/shared_cards.json";
+    console.log(updatedCards);
+    var deck = new Deck(updatedCards);
+    var jsonDeck = JSON.stringify(deck);
+
+    try {
+        fs.writeFile(dir, jsonDeck, 'utf8', function (err) {
+            if (err) {
+                console.log("An error occured while overwriting shared cards");
+                return console.log(err);
+            }
+            console.log("Shared cards updated");
+        });
+    } catch(err) {
+        console.error(err)
+    }
 }

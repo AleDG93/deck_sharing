@@ -24,9 +24,10 @@ gameController.post('/newGame', function(req, res){
         res.send("Rifai e scegli un altro nome per il gioco, zio Billy...");
         return;
     } else {
-        instantiateGame(gameType, playerName, gameName, dir)
-        res.cookie('game', dir)
-        res.cookie('player', playerName)
+        instantiateGame(gameType, playerName, gameName, dir)    
+        res.cookie('gameName', gameName);
+        res.cookie('gameType', gameType)
+        res.cookie('playerName', playerName);
         res.render('pages/gamePage', {gameType, playerName, gameName})
     }
 })
@@ -40,8 +41,9 @@ gameController.post('/joinGame', function(req, res){
 
     playerController.createPlayer(playerName, gameType, gameName);
 
-    res.cookie('game', 'games/' + gameType + "_" + gameName);
-    res.cookie('player', playerName);
+    res.cookie('gameName', gameName);
+    res.cookie('gameType', gameType)
+    res.cookie('playerName', playerName);
     res.render('pages/gamePage', {gameType, playerName, gameName});
 
 })
