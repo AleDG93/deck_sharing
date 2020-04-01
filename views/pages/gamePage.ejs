@@ -16,12 +16,12 @@
             <div class="team-orange">        
                 <h4>You're in team Orange</h4>
             </div>
-        </div>
     <% } else if( player.team == 'teamBlue') { %>
             <div class="team-blue">        
                 <h4>You're in team Blue</h4>
             </div>
     <% } %>
+        </div>
     <% if (gameType == 'pictionary')  { %>
         <div class="col-12 col-lg-9">            
             <div class="row">
@@ -70,8 +70,8 @@
                 <input value="<%= gameType %>" name="gameType" hidden>
                 <input value="<%= gameName %>" name="gameName" hidden>
                 <label class="form-check-label" for="points">Punti fatti:</label>
-                <input name="points" id="points" required>
-                <button type="submit" class="btn-info btn">Finisci il turno</button>
+                <input name="points" id="points" type="number" required>
+                <button type="submit" class="btn-info btn ml-2">Finisci il turno</button>
 
 
             </form>
@@ -111,10 +111,10 @@
 
 
 <% if(typeof player == 'object' && player) { %>
-    <div class="row">
+    <div class="row mt-4">
         <div class="col-12">
             <div class="row row-cols-1 row-cols-md-4">
-                <% for(var i = 0; i < player.cards.length; i++){ %>
+                <% for(var i = player.cards.length - 1; i >= 0; i--){ %>
                 <div class="col mb-4">
                     <div class="card border-secondary mb-3" style="width: 18rem;">
                         <div class="card-body">
@@ -124,7 +124,6 @@
                     </div>
                 </div> 
             <% } %>
-
             </div>
         </div>
     </div>        
