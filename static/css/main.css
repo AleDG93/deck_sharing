@@ -6,7 +6,7 @@ body {
     background-color: whitesmoke;
 }
 
-.team-orange >* {
+.team-orange > * {
     border-radius: 25px;
     border: 2px solid rgb(255, 117, 20);
     padding: 20px;
