@@ -154,6 +154,2291 @@
             "id": 31,
             "word": "Salvagente",
             "category": "Oggetti"
+        },
+        {
+            "id": 32,
+            "word": "pallottola",
+            "category": "oggetti"
+        },
+        {
+            "id": 33,
+            "word": "zavorra",
+            "category": "oggetti"
+        },
+        {
+            "id": 34,
+            "word": "imbottire",
+            "category": "azioni"
+        },
+        {
+            "id": 35,
+            "word": "diserbare",
+            "category": "azioni"
+        },
+        {
+            "id": 36,
+            "word": "miele",
+            "category": "oggetti"
+        },
+        {
+            "id": 37,
+            "word": "pollame",
+            "category": "difficoltà"
+        },
+        {
+            "id": 38,
+            "word": "pianura padana",
+            "category": "pla"
+        },
+        {
+            "id": 39,
+            "word": "disgustoso",
+            "category": "difficoltà"
+        },
+        {
+            "id": 40,
+            "word": "chitarra",
+            "category": "oggetti"
+        },
+        {
+            "id": 41,
+            "word": "pittore",
+            "category": "pla"
+        },
+        {
+            "id": 42,
+            "word": "malocchio",
+            "category": "difficoltà"
+        },
+        {
+            "id": 43,
+            "word": "oliare",
+            "category": "azioni"
+        },
+        {
+            "id": 44,
+            "word": "piatto",
+            "category": "oggetti"
+        },
+        {
+            "id": 45,
+            "word": "aratro",
+            "category": "oggetti"
+        },
+        {
+            "id": 46,
+            "word": "turbolenza",
+            "category": "difficoltà"
+        },
+        {
+            "id": 47,
+            "word": "spuntare",
+            "category": "azioni"
+        },
+        {
+            "id": 48,
+            "word": "remo",
+            "category": "oggetti"
+        },
+        {
+            "id": 49,
+            "word": "babbo natale",
+            "category": "pla"
+        },
+        {
+            "id": 50,
+            "word": "kiwi",
+            "category": "oggetti"
+        },
+        {
+            "id": 51,
+            "word": "sbeffeggiare",
+            "category": "azioni"
+        },
+        {
+            "id": 52,
+            "word": "visiera",
+            "category": "oggetti"
+        },
+        {
+            "id": 53,
+            "word": "avambraccio",
+            "category": "difficoltà"
+        },
+        {
+            "id": 54,
+            "word": "ammaccare",
+            "category": "azioni"
+        },
+        {
+            "id": 55,
+            "word": "raviolo",
+            "category": "oggetti"
+        },
+        {
+            "id": 56,
+            "word": "paperinik",
+            "category": "pla"
+        },
+        {
+            "id": 57,
+            "word": "torturare",
+            "category": "azioni"
+        },
+        {
+            "id": 58,
+            "word": "fenicottero",
+            "category": "pla"
+        },
+        {
+            "id": 59,
+            "word": "illusione",
+            "category": "difficoltà"
+        },
+        {
+            "id": 60,
+            "word": "raggio laser",
+            "category": "difficoltà"
+        },
+        {
+            "id": 61,
+            "word": "banana",
+            "category": "oggetti"
+        },
+        {
+            "id": 62,
+            "word": "sfondare",
+            "category": "azioni"
+        },
+        {
+            "id": 63,
+            "word": "boy scout",
+            "category": "pla"
+        },
+        {
+            "id": 64,
+            "word": "cuore spezzato",
+            "category": "difficoltà"
+        },
+        {
+            "id": 65,
+            "word": "caffè",
+            "category": "oggetti"
+        },
+        {
+            "id": 66,
+            "word": "manubrio",
+            "category": "oggetti"
+        },
+        {
+            "id": 67,
+            "word": "portiere",
+            "category": "pla"
+        },
+        {
+            "id": 68,
+            "word": "mordere",
+            "category": "azioni"
+        },
+        {
+            "id": 69,
+            "word": "delfino",
+            "category": "pla"
+        },
+        {
+            "id": 70,
+            "word": "zeta",
+            "category": "difficoltà"
+        },
+        {
+            "id": 71,
+            "word": "gemma",
+            "category": "oggetti"
+        },
+        {
+            "id": 72,
+            "word": "evitare",
+            "category": "azioni"
+        },
+        {
+            "id": 73,
+            "word": "tasso",
+            "category": "pla"
+        },
+        {
+            "id": 74,
+            "word": "squalo",
+            "category": "pla"
+        },
+        {
+            "id": 75,
+            "word": "sedile d'auto",
+            "category": "oggetti"
+        },
+        {
+            "id": 76,
+            "word": "calamaro",
+            "category": "pla"
+        },
+        {
+            "id": 77,
+            "word": "corsa di slitte",
+            "category": "difficoltà"
+        },
+        {
+            "id": 78,
+            "word": "giraffa",
+            "category": "pla"
+        },
+        {
+            "id": 79,
+            "word": "avvelenare",
+            "category": "azioni"
+        },
+        {
+            "id": 80,
+            "word": "champagne",
+            "category": "difficoltà"
+        },
+        {
+            "id": 81,
+            "word": "clown",
+            "category": "pla"
+        },
+        {
+            "id": 82,
+            "word": "faraone",
+            "category": "pla"
+        },
+        {
+            "id": 83,
+            "word": "eruttare",
+            "category": "azioni"
+        },
+        {
+            "id": 84,
+            "word": "ferire",
+            "category": "azioni"
+        },
+        {
+            "id": 85,
+            "word": "ippopotamo",
+            "category": "pla"
+        },
+        {
+            "id": 86,
+            "word": "scarpiera",
+            "category": "oggetti"
+        },
+        {
+            "id": 87,
+            "word": "manganello",
+            "category": "oggetti"
+        },
+        {
+            "id": 88,
+            "word": "sbocciare",
+            "category": "azioni"
+        },
+        {
+            "id": 89,
+            "word": "puro",
+            "category": "difficoltà"
+        },
+        {
+            "id": 90,
+            "word": "divano",
+            "category": "oggetti"
+        },
+        {
+            "id": 91,
+            "word": "cocco",
+            "category": "oggetti"
+        },
+        {
+            "id": 92,
+            "word": "tazza",
+            "category": "oggetti"
+        },
+        {
+            "id": 93,
+            "word": "camion",
+            "category": "oggetti"
+        },
+        {
+            "id": 94,
+            "word": "libro",
+            "category": "oggetti"
+        },
+        {
+            "id": 95,
+            "word": "carcere",
+            "category": "pla"
+        },
+        {
+            "id": 96,
+            "word": "gigen",
+            "category": "pla"
+        },
+        {
+            "id": 97,
+            "word": "colorare",
+            "category": "azioni"
+        },
+        {
+            "id": 98,
+            "word": "balena",
+            "category": "pla"
+        },
+        {
+            "id": 99,
+            "word": "fila indiana",
+            "category": "azioni"
+        },
+        {
+            "id": 100,
+            "word": "vegliare",
+            "category": "azioni"
+        },
+        {
+            "id": 101,
+            "word": "canale di panama",
+            "category": "pla"
+        },
+        {
+            "id": 102,
+            "word": "mosaico",
+            "category": "oggetti"
+        },
+        {
+            "id": 103,
+            "word": "appuntamento al buio",
+            "category": "difficoltà"
+        },
+        {
+            "id": 104,
+            "word": "cartolina",
+            "category": "oggetti"
+        },
+        {
+            "id": 105,
+            "word": "grandine",
+            "category": "oggetti"
+        },
+        {
+            "id": 106,
+            "word": "picchiare",
+            "category": "azioni"
+        },
+        {
+            "id": 107,
+            "word": "diabolik",
+            "category": "pla"
+        },
+        {
+            "id": 108,
+            "word": "kimi raikkonen",
+            "category": "pla"
+        },
+        {
+            "id": 109,
+            "word": "telecomando",
+            "category": "oggetti"
+        },
+        {
+            "id": 110,
+            "word": "libertà",
+            "category": "difficoltà"
+        },
+        {
+            "id": 111,
+            "word": "ananas",
+            "category": "oggetti"
+        },
+        {
+            "id": 112,
+            "word": "topo",
+            "category": "pla"
+        },
+        {
+            "id": 113,
+            "word": "lanterna",
+            "category": "oggetti"
+        },
+        {
+            "id": 114,
+            "word": "pugilato",
+            "category": "azioni"
+        },
+        {
+            "id": 115,
+            "word": "onomatopea",
+            "category": "difficoltà"
+        },
+        {
+            "id": 116,
+            "word": "berretto",
+            "category": "oggetti"
+        },
+        {
+            "id": 117,
+            "word": "copiare",
+            "category": "azioni"
+        },
+        {
+            "id": 118,
+            "word": "legame",
+            "category": "difficoltà"
+        },
+        {
+            "id": 119,
+            "word": "birra",
+            "category": "oggetti"
+        },
+        {
+            "id": 120,
+            "word": "razzo",
+            "category": "oggetti"
+        },
+        {
+            "id": 121,
+            "word": "blocco stradale",
+            "category": "difficoltà"
+        },
+        {
+            "id": 122,
+            "word": "ratto",
+            "category": "pla"
+        },
+        {
+            "id": 123,
+            "word": "zaino",
+            "category": "oggetti"
+        },
+        {
+            "id": 124,
+            "word": "bagaglio",
+            "category": "oggetti"
+        },
+        {
+            "id": 125,
+            "word": "sgocciolare",
+            "category": "azioni"
+        },
+        {
+            "id": 126,
+            "word": "guinzaglio",
+            "category": "oggetti"
+        },
+        {
+            "id": 127,
+            "word": "vino rosso",
+            "category": "difficoltà"
+        },
+        {
+            "id": 128,
+            "word": "gomma da neve",
+            "category": "oggetti"
+        },
+        {
+            "id": 129,
+            "word": "carabina",
+            "category": "oggetti"
+        },
+        {
+            "id": 130,
+            "word": "seppellire",
+            "category": "azioni"
+        },
+        {
+            "id": 131,
+            "word": "lustrare",
+            "category": "azioni"
+        },
+        {
+            "id": 132,
+            "word": "fossile",
+            "category": "oggetti"
+        },
+        {
+            "id": 133,
+            "word": "divo",
+            "category": "pla"
+        },
+        {
+            "id": 134,
+            "word": "giocare d'azzardo",
+            "category": "azioni"
+        },
+        {
+            "id": 135,
+            "word": "cronometrare",
+            "category": "azioni"
+        },
+        {
+            "id": 136,
+            "word": "circo",
+            "category": "pla"
+        },
+        {
+            "id": 137,
+            "word": "no",
+            "category": "difficoltà"
+        },
+        {
+            "id": 138,
+            "word": "pareggiare",
+            "category": "azioni"
+        },
+        {
+            "id": 139,
+            "word": "libreria",
+            "category": "pla"
+        },
+        {
+            "id": 140,
+            "word": "pinguino",
+            "category": "pla"
+        },
+        {
+            "id": 141,
+            "word": "luce di candela",
+            "category": "difficoltà"
+        },
+        {
+            "id": 142,
+            "word": "orologio",
+            "category": "oggetti"
+        },
+        {
+            "id": 143,
+            "word": "ridicolo",
+            "category": "difficoltà"
+        },
+        {
+            "id": 144,
+            "word": "infastidire",
+            "category": "azioni"
+        },
+        {
+            "id": 145,
+            "word": "palazzo",
+            "category": "pla"
+        },
+        {
+            "id": 146,
+            "word": "tavolo da gioco",
+            "category": "oggetti"
+        },
+        {
+            "id": 147,
+            "word": "religione",
+            "category": "difficoltà"
+        },
+        {
+            "id": 148,
+            "word": "autostrada",
+            "category": "pla"
+        },
+        {
+            "id": 149,
+            "word": "distillato",
+            "category": "oggetti"
+        },
+        {
+            "id": 150,
+            "word": "scrivere",
+            "category": "azione"
+        },
+        {
+            "id": 151,
+            "word": "verga",
+            "category": "oggetti"
+        },
+        {
+            "id": 152,
+            "word": "defecare",
+            "category": "azioni"
+        },
+        {
+            "id": 153,
+            "word": "nonno",
+            "category": "pla"
+        },
+        {
+            "id": 154,
+            "word": "tostapane",
+            "category": "oggetti"
+        },
+        {
+            "id": 155,
+            "word": "mangiare",
+            "category": "azioni"
+        },
+        {
+            "id": 156,
+            "word": "bologna",
+            "category": "pla"
+        },
+        {
+            "id": 157,
+            "word": "alpeggio",
+            "category": "pla"
+        },
+        {
+            "id": 158,
+            "word": "bermuda",
+            "category": "oggetti"
+        },
+        {
+            "id": 159,
+            "word": "sottobosco",
+            "category": "pla"
+        },
+        {
+            "id": 160,
+            "word": "spiaggia",
+            "category": "pla"
+        },
+        {
+            "id": 161,
+            "word": "lupo",
+            "category": "pla"
+        },
+        {
+            "id": 162,
+            "word": "unghia",
+            "category": "difficoltà"
+        },
+        {
+            "id": 163,
+            "word": "fondina",
+            "category": "oggetti"
+        },
+        {
+            "id": 164,
+            "word": "dolomiti",
+            "category": "pla"
+        },
+        {
+            "id": 165,
+            "word": "rana",
+            "category": "pla"
+        },
+        {
+            "id": 166,
+            "word": "catturare",
+            "category": "azioni"
+        },
+        {
+            "id": 167,
+            "word": "lunedì",
+            "category": "difficoltà"
+        },
+        {
+            "id": 168,
+            "word": "pinzette",
+            "category": "oggetti"
+        },
+        {
+            "id": 169,
+            "word": "machete",
+            "category": "oggetti"
+        },
+        {
+            "id": 170,
+            "word": "corno",
+            "category": "oggetti"
+        },
+        {
+            "id": 171,
+            "word": "pescare",
+            "category": "azioni"
+        },
+        {
+            "id": 172,
+            "word": "autotrasportatore",
+            "category": "pla"
+        },
+        {
+            "id": 173,
+            "word": "passaporto",
+            "category": "oggetti"
+        },
+        {
+            "id": 174,
+            "word": "gonna",
+            "category": "oggetti"
+        },
+        {
+            "id": 175,
+            "word": "biglietto",
+            "category": "oggetti"
+        },
+        {
+            "id": 176,
+            "word": "scozia",
+            "category": "pla"
+        },
+        {
+            "id": 177,
+            "word": "lemure",
+            "category": "pla"
+        },
+        {
+            "id": 178,
+            "word": "pera",
+            "category": "oggetti"
+        },
+        {
+            "id": 179,
+            "word": "svantaggio",
+            "category": "difficoltà"
+        },
+        {
+            "id": 180,
+            "word": "tuffarsi",
+            "category": "azioni"
+        },
+        {
+            "id": 181,
+            "word": "saltare con l'asta",
+            "category": "azioni"
+        },
+        {
+            "id": 182,
+            "word": "vinile",
+            "category": "oggetti"
+        },
+        {
+            "id": 183,
+            "word": "guglia",
+            "category": "oggetti"
+        },
+        {
+            "id": 184,
+            "word": "tormentare",
+            "category": "azioni"
+        },
+        {
+            "id": 185,
+            "word": "ripido",
+            "category": "difficoltà"
+        },
+        {
+            "id": 186,
+            "word": "tesa",
+            "category": "oggetti"
+        },
+        {
+            "id": 187,
+            "word": "eschimese",
+            "category": "pla"
+        },
+        {
+            "id": 188,
+            "word": "budino",
+            "category": "oggetti"
+        },
+        {
+            "id": 189,
+            "word": "maccherone",
+            "category": "oggetti"
+        },
+        {
+            "id": 190,
+            "word": "guardaroba",
+            "category": "oggetti"
+        },
+        {
+            "id": 191,
+            "word": "gustoso",
+            "category": "difficoltà"
+        },
+        {
+            "id": 192,
+            "word": "grasso",
+            "category": "difficoltà"
+        },
+        {
+            "id": 193,
+            "word": "ginnastica",
+            "category": "azioni"
+        },
+        {
+            "id": 194,
+            "word": "triste",
+            "category": "difficoltà"
+        },
+        {
+            "id": 195,
+            "word": "freno",
+            "category": "oggetti"
+        },
+        {
+            "id": 196,
+            "word": "panda",
+            "category": "pla"
+        },
+        {
+            "id": 197,
+            "word": "scialuppa di salvataggio",
+            "category": "oggetti"
+        },
+        {
+            "id": 198,
+            "word": "carota",
+            "category": "oggetti"
+        },
+        {
+            "id": 199,
+            "word": "donald trump",
+            "category": "pla"
+        },
+        {
+            "id": 200,
+            "word": "megafono",
+            "category": "oggetti"
+        },
+        {
+            "id": 201,
+            "word": "calzino",
+            "category": "oggetti"
+        },
+        {
+            "id": 202,
+            "word": "palestra",
+            "category": "pla"
+        },
+        {
+            "id": 203,
+            "word": "incosciente",
+            "category": "difficoltà"
+        },
+        {
+            "id": 204,
+            "word": "boccale di birra",
+            "category": "oggetti"
+        },
+        {
+            "id": 205,
+            "word": "genocidio",
+            "category": "difficoltà"
+        },
+        {
+            "id": 206,
+            "word": "disco",
+            "category": "oggetti"
+        },
+        {
+            "id": 207,
+            "word": "cavaliere",
+            "category": "pla"
+        },
+        {
+            "id": 208,
+            "word": "zanzara",
+            "category": "pla"
+        },
+        {
+            "id": 209,
+            "word": "telaio",
+            "category": "oggetti"
+        },
+        {
+            "id": 210,
+            "word": "bambino",
+            "category": "pla"
+        },
+        {
+            "id": 211,
+            "word": "gorilla",
+            "category": "pla"
+        },
+        {
+            "id": 212,
+            "word": "scarpa da calcio",
+            "category": "oggetti"
+        },
+        {
+            "id": 213,
+            "word": "doccia",
+            "category": "oggetti"
+        },
+        {
+            "id": 214,
+            "word": "anatra",
+            "category": "pla"
+        },
+        {
+            "id": 215,
+            "word": "potare",
+            "category": "azione"
+        },
+        {
+            "id": 216,
+            "word": "manager",
+            "category": "pla"
+        },
+        {
+            "id": 217,
+            "word": "cigno",
+            "category": "pla"
+        },
+        {
+            "id": 218,
+            "word": "nylon",
+            "category": "difficoltà"
+        },
+        {
+            "id": 219,
+            "word": "dentista",
+            "category": "pla"
+        },
+        {
+            "id": 220,
+            "word": "parafango",
+            "category": "oggetti"
+        },
+        {
+            "id": 221,
+            "word": "grado",
+            "category": "difficoltà"
+        },
+        {
+            "id": 222,
+            "word": "massaggiare",
+            "category": "azioni"
+        },
+        {
+            "id": 223,
+            "word": "stretto",
+            "category": "difficoltà"
+        },
+        {
+            "id": 224,
+            "word": "prostituta",
+            "category": "pla"
+        },
+        {
+            "id": 225,
+            "word": "spada",
+            "category": "oggetti"
+        },
+        {
+            "id": 226,
+            "word": "rastrellare",
+            "category": "azioni"
+        },
+        {
+            "id": 227,
+            "word": "vomitare",
+            "category": "azioni"
+        },
+        {
+            "id": 228,
+            "word": "insonorizzato",
+            "category": "difficoltà"
+        },
+        {
+            "id": 229,
+            "word": "deglutire",
+            "category": "azioni"
+        },
+        {
+            "id": 230,
+            "word": "assorbente",
+            "category": "oggetti"
+        },
+        {
+            "id": 231,
+            "word": "imbavagliare",
+            "category": "azioni"
+        },
+        {
+            "id": 232,
+            "word": "dizionario",
+            "category": "oggetti"
+        },
+        {
+            "id": 233,
+            "word": "tazza di caffè",
+            "category": "oggetti"
+        },
+        {
+            "id": 234,
+            "word": "navigare",
+            "category": "azioni"
+        },
+        {
+            "id": 235,
+            "word": "gara di sci",
+            "category": "difficoltà"
+        },
+        {
+            "id": 236,
+            "word": "totem",
+            "category": "oggetti"
+        },
+        {
+            "id": 237,
+            "word": "caramella",
+            "category": "oggetti"
+        },
+        {
+            "id": 238,
+            "word": "prefisso internazionale",
+            "category": "difficoltà"
+        },
+        {
+            "id": 239,
+            "word": "focaccia",
+            "category": "oggetti"
+        },
+        {
+            "id": 240,
+            "word": "ridere",
+            "category": "azioni"
+        },
+        {
+            "id": 241,
+            "word": "rigoglioso",
+            "category": "difficoltà"
+        },
+        {
+            "id": 242,
+            "word": "cucchiaino",
+            "category": "pla"
+        },
+        {
+            "id": 243,
+            "word": "lupin",
+            "category": "pla"
+        },
+        {
+            "id": 244,
+            "word": "deportare",
+            "category": "azioni"
+        },
+        {
+            "id": 245,
+            "word": "tegola",
+            "category": "oggetti"
+        },
+        {
+            "id": 246,
+            "word": "pneumatico",
+            "category": "oggetti"
+        },
+        {
+            "id": 247,
+            "word": "manichino",
+            "category": "oggetti"
+        },
+        {
+            "id": 248,
+            "word": "prete",
+            "category": "pla"
+        },
+        {
+            "id": 249,
+            "word": "pappagallo",
+            "category": "pla"
+        },
+        {
+            "id": 250,
+            "word": "zucca",
+            "category": "oggetti"
+        },
+        {
+            "id": 251,
+            "word": "schiaffeggiare",
+            "category": "azioni"
+        },
+        {
+            "id": 252,
+            "word": "ciotola",
+            "category": "oggetti"
+        },
+        {
+            "id": 253,
+            "word": "damigella d'onore",
+            "category": "pla"
+        },
+        {
+            "id": 254,
+            "word": "prestigio",
+            "category": "difficoltà"
+        },
+        {
+            "id": 255,
+            "word": "nastro trasportatore",
+            "category": "oggetti"
+        },
+        {
+            "id": 256,
+            "word": "paesaggio",
+            "category": "pla"
+        },
+        {
+            "id": 257,
+            "word": "menù",
+            "category": "oggetti"
+        },
+        {
+            "id": 258,
+            "word": "pungiglione",
+            "category": "oggetti"
+        },
+        {
+            "id": 259,
+            "word": "amazzone",
+            "category": "pla"
+        },
+        {
+            "id": 260,
+            "word": "zucchina",
+            "category": "oggetti"
+        },
+        {
+            "id": 261,
+            "word": "tonsilla",
+            "category": "difficoltà"
+        },
+        {
+            "id": 262,
+            "word": "obelix",
+            "category": "pla"
+        },
+        {
+            "id": 263,
+            "word": "nodo",
+            "category": "oggetti"
+        },
+        {
+            "id": 264,
+            "word": "domare",
+            "category": "azioni"
+        },
+        {
+            "id": 265,
+            "word": "corridoio",
+            "category": "pla"
+        },
+        {
+            "id": 266,
+            "word": "mammut",
+            "category": "pla"
+        },
+        {
+            "id": 267,
+            "word": "fuori",
+            "category": "difficoltà"
+        },
+        {
+            "id": 268,
+            "word": "parlare",
+            "category": "azioni"
+        },
+        {
+            "id": 269,
+            "word": "impazzire",
+            "category": "azioni"
+        },
+        {
+            "id": 270,
+            "word": "montone",
+            "category": "pla"
+        },
+        {
+            "id": 271,
+            "word": "teiera",
+            "category": "oggetti"
+        },
+        {
+            "id": 272,
+            "word": "ahia!",
+            "category": "difficoltà"
+        },
+        {
+            "id": 273,
+            "word": "adescare",
+            "category": "azioni"
+        },
+        {
+            "id": 274,
+            "word": "mela",
+            "category": "oggetti"
+        },
+        {
+            "id": 275,
+            "word": "motore",
+            "category": "oggetti"
+        },
+        {
+            "id": 276,
+            "word": "orso",
+            "category": "pla"
+        },
+        {
+            "id": 277,
+            "word": "boccaglio",
+            "category": "oggetti"
+        },
+        {
+            "id": 278,
+            "word": "lateralmente",
+            "category": "azioni"
+        },
+        {
+            "id": 279,
+            "word": "bufalo",
+            "category": "pla"
+        },
+        {
+            "id": 280,
+            "word": "medio",
+            "category": "difficoltà"
+        },
+        {
+            "id": 281,
+            "word": "anguria",
+            "category": "oggetti"
+        },
+        {
+            "id": 282,
+            "word": "cervo",
+            "category": "pla"
+        },
+        {
+            "id": 283,
+            "word": "legna",
+            "category": "oggetto"
+        },
+        {
+            "id": 284,
+            "word": "misurino",
+            "category": "oggetti"
+        },
+        {
+            "id": 285,
+            "word": "nido",
+            "category": "oggetti"
+        },
+        {
+            "id": 286,
+            "word": "affibbiare",
+            "category": "azioni"
+        },
+        {
+            "id": 287,
+            "word": "moltiplicare",
+            "category": "azioni"
+        },
+        {
+            "id": 288,
+            "word": "bere",
+            "category": "azione"
+        },
+        {
+            "id": 289,
+            "word": "le 6",
+            "category": "difficoltà"
+        },
+        {
+            "id": 290,
+            "word": "zebra",
+            "category": "pla"
+        },
+        {
+            "id": 291,
+            "word": "animale",
+            "category": "pla"
+        },
+        {
+            "id": 292,
+            "word": "ventilatore",
+            "category": "oggetti"
+        },
+        {
+            "id": 293,
+            "word": "annodare",
+            "category": "azioni"
+        },
+        {
+            "id": 294,
+            "word": "coltellino svizzero",
+            "category": "oggetti"
+        },
+        {
+            "id": 295,
+            "word": "acqua salata",
+            "category": "difficoltà"
+        },
+        {
+            "id": 296,
+            "word": "spiare",
+            "category": "azioni"
+        },
+        {
+            "id": 297,
+            "word": "ghemon",
+            "category": "pla"
+        },
+        {
+            "id": 298,
+            "word": "cuffie",
+            "category": "oggetti"
+        },
+        {
+            "id": 299,
+            "word": "madre",
+            "category": "pla"
+        },
+        {
+            "id": 300,
+            "word": "petto",
+            "category": "oggetti"
+        },
+        {
+            "id": 301,
+            "word": "sedia",
+            "category": "oggetti"
+        },
+        {
+            "id": 302,
+            "word": "castoro",
+            "category": "pla"
+        },
+        {
+            "id": 303,
+            "word": "forgiare",
+            "category": "azioni"
+        },
+        {
+            "id": 304,
+            "word": "remare",
+            "category": "azioni"
+        },
+        {
+            "id": 305,
+            "word": "penna stilografica",
+            "category": "oggetti"
+        },
+        {
+            "id": 306,
+            "word": "volpe",
+            "category": "pla"
+        },
+        {
+            "id": 307,
+            "word": "ortensia",
+            "category": "oggetti"
+        },
+        {
+            "id": 308,
+            "word": "cleopatra",
+            "category": "pla"
+        },
+        {
+            "id": 309,
+            "word": "positivo",
+            "category": "difficoltà"
+        },
+        {
+            "id": 310,
+            "word": "addentare",
+            "category": "azioni"
+        },
+        {
+            "id": 311,
+            "word": "asino",
+            "category": "pla"
+        },
+        {
+            "id": 312,
+            "word": "parola",
+            "category": "difficoltà"
+        },
+        {
+            "id": 313,
+            "word": "palma",
+            "category": "oggetti"
+        },
+        {
+            "id": 314,
+            "word": "castello",
+            "category": "pla"
+        },
+        {
+            "id": 315,
+            "word": "parabrezza",
+            "category": "oggetti"
+        },
+        {
+            "id": 316,
+            "word": "finestra",
+            "category": "oggetti"
+        },
+        {
+            "id": 317,
+            "word": "apache",
+            "category": "pla"
+        },
+        {
+            "id": 318,
+            "word": "vampiro",
+            "category": "pla"
+        },
+        {
+            "id": 319,
+            "word": "montare",
+            "category": "azioni"
+        },
+        {
+            "id": 320,
+            "word": "passeggiata nello spazio",
+            "category": "difficoltà"
+        },
+        {
+            "id": 321,
+            "word": "accendino",
+            "category": "oggetti"
+        },
+        {
+            "id": 322,
+            "word": "chiesa",
+            "category": "pla"
+        },
+        {
+            "id": 323,
+            "word": "zombie",
+            "category": "pla"
+        },
+        {
+            "id": 324,
+            "word": "palo",
+            "category": "oggetti"
+        },
+        {
+            "id": 325,
+            "word": "chiudere",
+            "category": "azioni"
+        },
+        {
+            "id": 326,
+            "word": "geloso",
+            "category": "difficoltà"
+        },
+        {
+            "id": 327,
+            "word": "impastare",
+            "category": "azioni"
+        },
+        {
+            "id": 328,
+            "word": "arteria",
+            "category": "difficoltà"
+        },
+        {
+            "id": 329,
+            "word": "inondazione",
+            "category": "difficoltà"
+        },
+        {
+            "id": 330,
+            "word": "consolle",
+            "category": "oggetti"
+        },
+        {
+            "id": 331,
+            "word": "portapillole",
+            "category": "oggetti"
+        },
+        {
+            "id": 332,
+            "word": "giungla",
+            "category": "pla"
+        },
+        {
+            "id": 333,
+            "word": "spolverare",
+            "category": "azioni"
+        },
+        {
+            "id": 334,
+            "word": "portachiavi",
+            "category": "oggetti"
+        },
+        {
+            "id": 335,
+            "word": "windsurf",
+            "category": "oggetti"
+        },
+        {
+            "id": 336,
+            "word": "pioggia",
+            "category": "oggetti"
+        },
+        {
+            "id": 337,
+            "word": "imbalsamare",
+            "category": "azioni"
+        },
+        {
+            "id": 338,
+            "word": "pelle d'oca",
+            "category": "difficoltà"
+        },
+        {
+            "id": 339,
+            "word": "portafogli",
+            "category": "oggetti"
+        },
+        {
+            "id": 340,
+            "word": "lampeggiare",
+            "category": "azioni"
+        },
+        {
+            "id": 341,
+            "word": "tamponamento a catena",
+            "category": "difficoltà"
+        },
+        {
+            "id": 342,
+            "word": "poltrona",
+            "category": "oggetti"
+        },
+        {
+            "id": 343,
+            "word": "nuotare",
+            "category": "azioni"
+        },
+        {
+            "id": 344,
+            "word": "fiaschetta",
+            "category": "oggetti"
+        },
+        {
+            "id": 345,
+            "word": "panoramix",
+            "category": "pla"
+        },
+        {
+            "id": 346,
+            "word": "stuzzicadenti",
+            "category": "oggetti"
+        },
+        {
+            "id": 347,
+            "word": "russia",
+            "category": "pla"
+        },
+        {
+            "id": 348,
+            "word": "meccanico",
+            "category": "pla"
+        },
+        {
+            "id": 349,
+            "word": "galleria",
+            "category": "oggetti"
+        },
+        {
+            "id": 350,
+            "word": "cuscino",
+            "category": "oggetti"
+        },
+        {
+            "id": 351,
+            "word": "giornalista",
+            "category": "pla"
+        },
+        {
+            "id": 352,
+            "word": "porta",
+            "category": "oggetti"
+        },
+        {
+            "id": 353,
+            "word": "guancia",
+            "category": "oggetti"
+        },
+        {
+            "id": 354,
+            "word": "mettere il berretto",
+            "category": "azioni"
+        },
+        {
+            "id": 355,
+            "word": "speculare",
+            "category": "difficoltà"
+        },
+        {
+            "id": 356,
+            "word": "scottatura solare",
+            "category": "difficoltà"
+        },
+        {
+            "id": 357,
+            "word": "mercato",
+            "category": "pla"
+        },
+        {
+            "id": 358,
+            "word": "slot machine",
+            "category": "oggetti"
+        },
+        {
+            "id": 359,
+            "word": "valigia",
+            "category": "oggetti"
+        },
+        {
+            "id": 360,
+            "word": "formica",
+            "category": "pla"
+        },
+        {
+            "id": 361,
+            "word": "piede",
+            "category": "oggetti"
+        },
+        {
+            "id": 362,
+            "word": "polo sud",
+            "category": "pla"
+        },
+        {
+            "id": 363,
+            "word": "rosa",
+            "category": "oggetti"
+        },
+        {
+            "id": 364,
+            "word": "magia",
+            "category": "difficoltà"
+        },
+        {
+            "id": 365,
+            "word": "zerbino",
+            "category": "oggetti"
+        },
+        {
+            "id": 366,
+            "word": "ciondolare",
+            "category": "azioni"
+        },
+        {
+            "id": 367,
+            "word": "venezia",
+            "category": "pla"
+        },
+        {
+            "id": 368,
+            "word": "marinaio",
+            "category": "pla"
+        },
+        {
+            "id": 369,
+            "word": "macchina da scrivere",
+            "category": "oggetti"
+        },
+        {
+            "id": 370,
+            "word": "cartello",
+            "category": "oggetti"
+        },
+        {
+            "id": 371,
+            "word": "coccodrillo",
+            "category": "pla"
+        },
+        {
+            "id": 372,
+            "word": "urna",
+            "category": "oggetti"
+        },
+        {
+            "id": 373,
+            "word": "spazzolino",
+            "category": "oggetti"
+        },
+        {
+            "id": 374,
+            "word": "obeso",
+            "category": "pla"
+        },
+        {
+            "id": 375,
+            "word": "fungo",
+            "category": "oggetti"
+        },
+        {
+            "id": 376,
+            "word": "obeso",
+            "category": "difficoltà"
+        },
+        {
+            "id": 377,
+            "word": "sciarpa",
+            "category": "oggetti"
+        },
+        {
+            "id": 378,
+            "word": "armadio",
+            "category": "oggetti"
+        },
+        {
+            "id": 379,
+            "word": "limone",
+            "category": "oggetti"
+        },
+        {
+            "id": 380,
+            "word": "onnipresente",
+            "category": "difficoltà"
+        },
+        {
+            "id": 381,
+            "word": "lanciafiamme",
+            "category": "oggetti"
+        },
+        {
+            "id": 382,
+            "word": "tagliatelle",
+            "category": "oggetti"
+        },
+        {
+            "id": 383,
+            "word": "presidente",
+            "category": "pla"
+        },
+        {
+            "id": 384,
+            "word": "daffy duck",
+            "category": "pla"
+        },
+        {
+            "id": 385,
+            "word": "pozzo",
+            "category": "oggetti"
+        },
+        {
+            "id": 386,
+            "word": "saltare",
+            "category": "azioni"
+        },
+        {
+            "id": 387,
+            "word": "malga",
+            "category": "pla"
+        },
+        {
+            "id": 388,
+            "word": "seconda mano",
+            "category": "difficoltà"
+        },
+        {
+            "id": 389,
+            "word": "cappello",
+            "category": "oggetti"
+        },
+        {
+            "id": 390,
+            "word": "stadio",
+            "category": "pla"
+        },
+        {
+            "id": 391,
+            "word": "respirare",
+            "category": "azioni"
+        },
+        {
+            "id": 392,
+            "word": "paleolitico",
+            "category": "difficoltà"
+        },
+        {
+            "id": 393,
+            "word": "razionare",
+            "category": "azioni"
+        },
+        {
+            "id": 394,
+            "word": "oasi",
+            "category": "pla"
+        },
+        {
+            "id": 395,
+            "word": "muscolo",
+            "category": "difficoltà"
+        },
+        {
+            "id": 396,
+            "word": "capri",
+            "category": "pla"
+        },
+        {
+            "id": 397,
+            "word": "timido",
+            "category": "difficoltà"
+        },
+        {
+            "id": 398,
+            "word": "gondoliere",
+            "category": "pla"
+        },
+        {
+            "id": 399,
+            "word": "ape",
+            "category": "pla"
+        },
+        {
+            "id": 400,
+            "word": "medico",
+            "category": "pla"
+        },
+        {
+            "id": 401,
+            "word": "direttore d’orchestra",
+            "category": "pla"
+        },
+        {
+            "id": 402,
+            "word": "bugs bunny",
+            "category": "pla"
+        },
+        {
+            "id": 403,
+            "word": "pazzo",
+            "category": "difficoltà"
+        },
+        {
+            "id": 404,
+            "word": "phon",
+            "category": "oggetti"
+        },
+        {
+            "id": 405,
+            "word": "atleta",
+            "category": "pla"
+        },
+        {
+            "id": 406,
+            "word": "telefono",
+            "category": "oggetti"
+        },
+        {
+            "id": 407,
+            "word": "occhiali da sole",
+            "category": "oggetti"
+        },
+        {
+            "id": 408,
+            "word": "assegno in bianco",
+            "category": "difficoltà"
+        },
+        {
+            "id": 409,
+            "word": "lago maggiore",
+            "category": "pla"
+        },
+        {
+            "id": 410,
+            "word": "camminare in punta di piedi",
+            "category": "azioni"
+        },
+        {
+            "id": 411,
+            "word": "inferno",
+            "category": "pla"
+        },
+        {
+            "id": 412,
+            "word": "spazzolare",
+            "category": "azioni"
+        },
+        {
+            "id": 413,
+            "word": "televisore",
+            "category": "oggetti"
+        },
+        {
+            "id": 414,
+            "word": "lavanderia",
+            "category": "pla"
+        },
+        {
+            "id": 415,
+            "word": "pilota",
+            "category": "pla"
+        },
+        {
+            "id": 416,
+            "word": "richiamo",
+            "category": "difficoltà"
+        },
+        {
+            "id": 417,
+            "word": "lenzuolo",
+            "category": "oggetti"
+        },
+        {
+            "id": 418,
+            "word": "applaudire",
+            "category": "azioni"
+        },
+        {
+            "id": 419,
+            "word": "anima",
+            "category": "difficoltà"
+        },
+        {
+            "id": 420,
+            "word": "dollaro",
+            "category": "oggetti"
+        },
+        {
+            "id": 421,
+            "word": "russare",
+            "category": "azioni"
+        },
+        {
+            "id": 422,
+            "word": "bidet",
+            "category": "oggetti"
+        },
+        {
+            "id": 423,
+            "word": "scopa",
+            "category": "oggetti"
+        },
+        {
+            "id": 424,
+            "word": "deserto",
+            "category": "pla"
+        },
+        {
+            "id": 425,
+            "word": "impastare (es. pane)",
+            "category": "azioni"
+        },
+        {
+            "id": 426,
+            "word": "forbici",
+            "category": "oggetti"
+        },
+        {
+            "id": 427,
+            "word": "fanfarone",
+            "category": "difficoltà"
+        },
+        {
+            "id": 428,
+            "word": "barista",
+            "category": "pla"
+        },
+        {
+            "id": 429,
+            "word": "sedia elettrica",
+            "category": "oggetti"
+        },
+        {
+            "id": 430,
+            "word": "vestito",
+            "category": "oggetti"
+        },
+        {
+            "id": 431,
+            "word": "armatura",
+            "category": "oggetti"
+        },
+        {
+            "id": 432,
+            "word": "america del sud",
+            "category": "pla"
+        },
+        {
+            "id": 433,
+            "word": "mucca",
+            "category": "pla"
+        },
+        {
+            "id": 434,
+            "word": "asciugare",
+            "category": "azioni"
+        },
+        {
+            "id": 435,
+            "word": "sacco di sabbia",
+            "category": "oggetti"
+        },
+        {
+            "id": 436,
+            "word": "prima guerra mondiale",
+            "category": "difficoltà"
+        },
+        {
+            "id": 437,
+            "word": "ventiquattrore",
+            "category": "oggetti"
+        },
+        {
+            "id": 438,
+            "word": "abbracciare",
+            "category": "azioni"
+        },
+        {
+            "id": 439,
+            "word": "passare",
+            "category": "azioni"
+        },
+        {
+            "id": 440,
+            "word": "piattello",
+            "category": "oggetti"
+        },
+        {
+            "id": 441,
+            "word": "tablet",
+            "category": "oggetti"
+        },
+        {
+            "id": 442,
+            "word": "parchimetro",
+            "category": "oggetti"
+        },
+        {
+            "id": 443,
+            "word": "cupido",
+            "category": "pla"
+        },
+        {
+            "id": 444,
+            "word": "luppolo",
+            "category": "oggetti"
+        },
+        {
+            "id": 445,
+            "word": "deformare",
+            "category": "azioni"
+        },
+        {
+            "id": 446,
+            "word": "foglio",
+            "category": "oggetti"
+        },
+        {
+            "id": 447,
+            "word": "asterix",
+            "category": "pla"
+        },
+        {
+            "id": 448,
+            "word": "tavolo",
+            "category": "oggetti"
+        },
+        {
+            "id": 449,
+            "word": "portare avanti",
+            "category": "azioni"
+        },
+        {
+            "id": 450,
+            "word": "margherita",
+            "category": "oggetti"
+        },
+        {
+            "id": 451,
+            "word": "oceano pacifico",
+            "category": "pla"
+        },
+        {
+            "id": 452,
+            "word": "sbottonare",
+            "category": "azioni"
+        },
+        {
+            "id": 453,
+            "word": "passaggio",
+            "category": "azioni"
+        },
+        {
+            "id": 454,
+            "word": "pattini",
+            "category": "oggetti"
+        },
+        {
+            "id": 455,
+            "word": "papà",
+            "category": "pla"
+        },
+        {
+            "id": 456,
+            "word": "chiacchierare",
+            "category": "azioni"
+        },
+        {
+            "id": 457,
+            "word": "burro",
+            "category": "oggetti"
+        },
+        {
+            "id": 458,
+            "word": "enigmista",
+            "category": "difficoltà"
+        },
+        {
+            "id": 459,
+            "word": "benda per occhi",
+            "category": "oggetti"
+        },
+        {
+            "id": 460,
+            "word": "periodo",
+            "category": "difficoltà"
+        },
+        {
+            "id": 461,
+            "word": "champagne",
+            "category": "oggetti"
+        },
+        {
+            "id": 462,
+            "word": "circuito",
+            "category": "pla"
+        },
+        {
+            "id": 463,
+            "word": "scultore",
+            "category": "pla"
+        },
+        {
+            "id": 464,
+            "word": "giardino",
+            "category": "pla"
+        },
+        {
+            "id": 465,
+            "word": "riflettore",
+            "category": "oggetti"
+        },
+        {
+            "id": 466,
+            "word": "giudice",
+            "category": "pla"
+        },
+        {
+            "id": 467,
+            "word": "lavarsi",
+            "category": "azioni"
+        },
+        {
+            "id": 468,
+            "word": "torta di cioccolato",
+            "category": "difficoltà"
+        },
+        {
+            "id": 469,
+            "word": "retro",
+            "category": "difficoltà"
+        },
+        {
+            "id": 470,
+            "word": "gratta e vinci",
+            "category": "oggetti"
+        },
+        {
+            "id": 471,
+            "word": "orca",
+            "category": "pla"
+        },
+        {
+            "id": 472,
+            "word": "millepiedi",
+            "category": "pla"
+        },
+        {
+            "id": 473,
+            "word": "ululare",
+            "category": "azioni"
+        },
+        {
+            "id": 474,
+            "word": "dolce",
+            "category": "difficoltà"
+        },
+        {
+            "id": 475,
+            "word": "pizzaiolo",
+            "category": "pla"
+        },
+        {
+            "id": 476,
+            "word": "atomo",
+            "category": "oggetti"
+        },
+        {
+            "id": 477,
+            "word": "sole",
+            "category": "oggetti"
+        },
+        {
+            "id": 478,
+            "word": "siena",
+            "category": "pla"
+        },
+        {
+            "id": 479,
+            "word": "palla",
+            "category": "oggetti"
+        },
+        {
+            "id": 480,
+            "word": "trattore",
+            "category": "oggetti"
+        },
+        {
+            "id": 481,
+            "word": "pancia",
+            "category": "difficoltà"
+        },
+        {
+            "id": 482,
+            "word": "lattuga",
+            "category": "oggetti"
+        },
+        {
+            "id": 483,
+            "word": "pianoforte",
+            "category": "oggetti"
+        },
+        {
+            "id": 484,
+            "word": "fuoco",
+            "category": "oggetti"
+        },
+        {
+            "id": 485,
+            "word": "pomello",
+            "category": "oggetti"
+        },
+        {
+            "id": 486,
+            "word": "camino",
+            "category": "oggetti"
+        },
+        {
+            "id": 487,
+            "word": "pugnalare",
+            "category": "azione"
+        },
+        {
+            "id": 488,
+            "word": "caricatore",
+            "category": "oggetti"
         }
     ]
 }

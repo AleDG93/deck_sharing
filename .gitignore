@@ -1,1 +1,4 @@
 node_modules/*
+*.ipynb
+parole.txt
+parole.json
